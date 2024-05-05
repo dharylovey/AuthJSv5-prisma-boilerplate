@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 
 export default async function page() {
-  await new Promise((resolve) => setTimeout(resolve, 2000))
+  // await new Promise((resolve) => setTimeout(resolve, 2000))
   const session = await getSession();
   const user = session?.user;
 
